@@ -1,15 +1,42 @@
 # Spaced repetition API!
 
-## Local dev setup
+## Summary
 
-## Scripts
+This is a language learning application using the Spaced Repetition learning technique!
 
-Start the application `npm start`
+## Endpoints
 
-Start nodemon for the application `npm run dev`
+### /api/language
 
-Run the tests mode `npm test`
+- GET requests
+- this endpoint returns a list of a user's languages, and the words being studied in that language
 
-Run the migrations up `npm run migrate`
+### /api/language/head
 
-Run the migrations down `npm run migrate -- 0`
+- GET requests
+- This endpoint will return the next word to be studied
+
+### /api/language/guess
+
+- Users can POST their guess to each word as displayed in the /head endpoint
+
+## Technology Used
+
+### Client:
+
+- ReactJS
+- react-router-dom for routing and in-app navigation
+- CSS (vanilla CSS)
+- Babel
+- Webpack
+- Vercel for deployment
+- Cypress for testing
+
+### Backend:
+
+- Express for handling API requests
+- NodeJS for interacting with the file system
+- Postgrator for database migration
+- Mocha, Chai, Supertest for endpoints testing
+- Knex.js for interfacing with PostgreSQL database
+- Heroku for database and server deployment
