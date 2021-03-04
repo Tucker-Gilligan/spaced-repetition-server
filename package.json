@@ -15,6 +15,9 @@
     "postDeploy": "npm run migrate:production"
   },
   "keywords": [],
+  "engines": {
+    "node": "12.20.1"
+  },
   "Author": "Tucker",
   "license": "MIT",
   "dependencies": {
