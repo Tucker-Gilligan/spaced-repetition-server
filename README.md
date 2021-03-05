@@ -15,7 +15,7 @@ This is a language learning application using the Spaced Repetition learning tec
 
 - POST requests authorization
 - Used for logging in and 
-- 
+
 <img src="https://user-images.githubusercontent.com/72029209/110063754-bd737380-7d39-11eb-9fd2-880f6e7e7472.png" alt="login page" width="200px">
 
 <img src="https://user-images.githubusercontent.com/72029209/110064478-2ad3d400-7d3b-11eb-8e32-1c5f4c126af9.png" alt="registration page" width="200px">
